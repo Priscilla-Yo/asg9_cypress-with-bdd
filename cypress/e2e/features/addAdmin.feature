@@ -1,5 +1,6 @@
 Feature: Add Multiple Admins
 
+  Scenario Outline: Add new admin user
     Given user is logged in as "<username>" with "<password>"
     And user navigates to Admin page
     When user adds a new admin "<newUsername>" with role "<role>"
